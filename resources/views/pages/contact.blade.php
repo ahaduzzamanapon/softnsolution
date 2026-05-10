@@ -55,7 +55,17 @@
             <div>
                 <div style="background:#fff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,.09);padding:36px;">
                     <h3 style="font-size:20px;font-weight:700;margin-bottom:24px;color:#222;">Send Us a Message</h3>
-                    <form>
+                    @if(session('success'))
+                    <div style="background:#dcfce7;color:#16a34a;border:1px solid #bbf7d0;padding:14px 18px;border-radius:8px;margin-bottom:20px;font-weight:600;font-size:14px;">
+                        ✅ {{ session('success') }}
+                    </div>
+                    @endif
+                    @if($errors->any())
+                    <div style="background:#fee2e2;color:#dc2626;border:1px solid #fecaca;padding:14px 18px;border-radius:8px;margin-bottom:20px;font-size:14px;">
+                        @foreach($errors->all() as $e)<div>• {{ $e }}</div>@endforeach
+                    </div>
+                    @endif
+                    <form method="POST" action="/contact">
                         @csrf
                         <div class="form-row">
                             <div class="form-group">
