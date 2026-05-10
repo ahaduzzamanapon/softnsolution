@@ -47,59 +47,59 @@
 <nav class="main-nav">
     <div class="container">
         <div class="nav-dropdown">
-            <a href="#">SEO ▾</a>
+            <a href="/seo">SEO ▾</a>
             <div class="dropdown-menu">
-                <a href="#">On-Page SEO</a>
-                <a href="#">Off-Page SEO</a>
-                <a href="#">Local SEO</a>
-                <a href="#">Technical SEO</a>
-                <a href="#">E-Commerce SEO</a>
+                <a href="/seo/on-page-seo">On-Page SEO</a>
+                <a href="/seo/off-page-seo">Off-Page SEO</a>
+                <a href="/seo/local-seo">Local SEO</a>
+                <a href="/seo/technical-seo">Technical SEO</a>
+                <a href="/seo/ecommerce-seo">E-Commerce SEO</a>
             </div>
         </div>
         <div class="nav-dropdown">
-            <a href="#">Web Design ▾</a>
+            <a href="/web-design">Web Design ▾</a>
             <div class="dropdown-menu">
-                <a href="#">Business Website</a>
-                <a href="#">Landing Page</a>
-                <a href="#">Portfolio Website</a>
-                <a href="#">WordPress Design</a>
+                <a href="/web-design/business-website">Business Website</a>
+                <a href="/web-design/landing-page">Landing Page</a>
+                <a href="/web-design/portfolio-website">Portfolio Website</a>
+                <a href="/web-design/wordpress-design">WordPress Design</a>
             </div>
         </div>
         <div class="nav-dropdown">
-            <a href="#">Web Development ▾</a>
+            <a href="/web-development">Web Development ▾</a>
             <div class="dropdown-menu">
-                <a href="#">Custom Web App</a>
-                <a href="#">E-Commerce</a>
-                <a href="#">CMS Development</a>
-                <a href="#">API Development</a>
+                <a href="/web-development/custom-web-app">Custom Web App</a>
+                <a href="/web-development/ecommerce">E-Commerce</a>
+                <a href="/web-development/cms-development">CMS Development</a>
+                <a href="/web-development/api-development">API Development</a>
             </div>
         </div>
         <div class="nav-dropdown">
-            <a href="#">Digital Marketing ▾</a>
+            <a href="/digital-marketing">Digital Marketing ▾</a>
             <div class="dropdown-menu">
-                <a href="#">Social Media Marketing</a>
-                <a href="#">Facebook Ads</a>
-                <a href="#">Google Ads</a>
-                <a href="#">Email Marketing</a>
-                <a href="#">Content Marketing</a>
+                <a href="/digital-marketing/social-media-marketing">Social Media Marketing</a>
+                <a href="/digital-marketing/facebook-ads">Facebook Ads</a>
+                <a href="/digital-marketing/google-ads">Google Ads</a>
+                <a href="/digital-marketing/email-marketing">Email Marketing</a>
+                <a href="/digital-marketing/content-marketing">Content Marketing</a>
             </div>
         </div>
         <div class="nav-dropdown">
-            <a href="#">Software ▾</a>
+            <a href="/software">Software ▾</a>
             <div class="dropdown-menu">
-                <a href="#">ERP Software</a>
-                <a href="#">HRM Software</a>
-                <a href="#">Accounting Software</a>
-                <a href="#">POS Software</a>
-                <a href="#">School Management</a>
+                <a href="/software/erp-software">ERP Software</a>
+                <a href="/software/hrm-software">HRM Software</a>
+                <a href="/software/accounting-software">Accounting Software</a>
+                <a href="/software/pos-software">POS Software</a>
+                <a href="/software/school-management">School Management</a>
             </div>
         </div>
         <div class="nav-dropdown">
-            <a href="#">Apps ▾</a>
+            <a href="/apps">Apps ▾</a>
             <div class="dropdown-menu">
-                <a href="#">Android App</a>
-                <a href="#">iOS App</a>
-                <a href="#">Cross Platform</a>
+                <a href="/apps/android-app">Android App</a>
+                <a href="/apps/ios-app">iOS App</a>
+                <a href="/apps/cross-platform">Cross Platform</a>
             </div>
         </div>
     </div>
